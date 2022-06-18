@@ -1,0 +1,522 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background-color: rgb(245, 245, 245);
+}
+h1 {
+	margin: 10px 0px;
+	font-size: 40px;
+}
+p {
+	margin: 10px 0px;
+	font-size: smaller;
+}
+a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+.btn {
+	background-color: orange;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	display: flex;
+}
+header {
+	width: 100%;
+	background-color: snow;
+}
+
+header .container {
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 25%;
+}
+.logo h3 {
+	display: inline;
+}
+.logo i {
+	font-size: larger;
+}
+nav {
+	display: flex;
+}
+ul {
+	display: flex;
+	align-items: center;
+}
+li {
+	display: flex;
+	width: 90px;
+	padding-top: 30px;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.selector {
+	margin-top: 25px;
+	background-color: white;
+	height: 6px;
+}
+
+header .selected {
+	background-color: skyblue;
+	color: white;
+	font-weight: bolder;
+}
+
+.selected .selector {
+	background-color: dodgerblue;
+	margin-top: 19px;
+	height: 12px;
+	clip-path: polygon(
+		0% 100%,
+		100% 100%,
+		100% 50%,
+		60% 50%,
+		50% 0%,
+		40% 50%,
+		0% 50%
+	);
+}
+div.btn {
+	margin: 10px;
+	display: block;
+}
+.search h3 {
+	display: inline;
+}
+
+section.hero {
+	width: 100%;
+	height: 505px;
+	background-image: url(../media/hero.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.hero .container {
+	color: white;
+	text-align: center;
+	width: 55%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}
+.mid-btn {
+	width: 200px;
+	margin: -15px auto 10px auto;
+}
+.mid-btn h3 {
+	padding: 5px 10px;
+	display: inline-block;
+	margin: 0px auto;
+	color: white;
+	text-align: center;
+	background-color: dodgerblue;
+	border-radius: 5px;
+}
+.icons .container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon i {
+	font-size: 100px;
+	color: dodgerblue;
+	margin: 20px;
+}
+.icon {
+	padding: 20px;
+	width: 25%;
+	text-align: center;
+}
+
+.portfolio {
+	background-color: #2a3c4d;
+	width: 100%;
+	padding: 20px;
+}
+
+.portfolio .container {
+	flex-direction: column;
+}
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card img {
+	width: 100%;
+	border: 10px solid white;
+}
+
+.cards {
+	margin: 30px 0px;
+	display: flex;
+	color: white;
+
+	justify-content: space-between;
+}
+
+.card {
+	width: 250px;
+}
+
+.card h4,
+h2 {
+	margin: 10px 0px;
+	color: orange;
+}
+
+.title .btn {
+	background-color: dodgerblue;
+}
+
+.offer .container,
+.test .container {
+	margin: 30px auto;
+	flex-direction: column;
+	text-align: center;
+}
+
+.head {
+	margin: 0px 100px;
+}
+.offer h2,
+.offer h4,
+.test h2 {
+	color: dodgerblue;
+}
+
+.cols {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.col {
+	width: 20%;
+	text-align: left;
+}
+.col .btn {
+	float: right;
+	text-align: right;
+
+	background-color: dodgerblue;
+	padding: 5px 10px;
+}
+
+.test q {
+	margin: 20px 80px;
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: oblique;
+	font-size: large;
+}
+.test p {
+	color: orange;
+}
+
+.circles {
+	display: inline-flex;
+	margin: auto;
+}
+.circle {
+	width: 64px;
+	margin: 0px 10px;
+}
+.circle img {
+	clip-path: circle(50%);
+	background-color: lightgray;
+}
+
+.test .selector {
+	margin-top: 25px;
+	background-color: lightgray;
+	height: 6px;
+}
+
+.test .selected img {
+	background-color: orange;
+}
+
+.test .selected .selector {
+	background-color: orange;
+	margin-top: 19px;
+	height: 12px;
+	clip-path: polygon(
+		0% 100%,
+		100% 100%,
+		100% 50%,
+		60% 50%,
+		50% 0%,
+		40% 50%,
+		0% 50%
+	);
+}
+
+.test .container {
+	margin-bottom: 0px;
+}
+
+footer {
+	width: 100%;
+	background-color: #2a3c4d;
+	padding: 30px 0px;
+}
+
+.feeds {
+	width: 22%;
+}
+.news {
+	width: 28%;
+}
+.recent {
+	width: 22%;
+}
+.contact {
+	width: 15%;
+}
+
+footer h4 {
+	color: orange;
+	margin: 20px 0px;
+}
+
+footer p {
+	font-size: 11px;
+	line-height: 20px;
+	color: whitesmoke;
+}
+
+footer form input {
+	margin: 10px 0px;
+	width: 100%;
+	height: 30px;
+}
+footer form label {
+	display: block;
+	margin-top: 10px;
+	color: dodgerblue;
+}
+footer .btn {
+	background-color: dodgerblue;
+	/* display: inline-block; */
+	float: right;
+}
+
+footer .sec {
+	display: flex;
+}
+footer .sec p {
+	margin-left: 15px;
+}
+
+footer .blank {
+	margin-top: 10px;
+	background-color: aliceblue;
+	width: 60px;
+	height: 60px;
+}
+
+footer .cont {
+	display: flex;
+}
+
+.cont i {
+	width: 40px;
+	display: block;
+	margin-top: 15px;
+	font-size: xx-large;
+	color: dodgerblue;
+}
+
+/* contact page */
+
+.hero.contact-page {
+	height: 300px;
+}
+
+.main {
+	margin: 20px 0px;
+}
+
+.main h2 {
+	color: dodgerblue;
+}
+.main p {
+	width: 75%;
+	margin: auto;
+}
+
+.main .container {
+	flex-flow: column;
+	text-align: center;
+}
+
+.flex {
+	margin: 30px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+span.red {
+	color: red;
+}
+
+div.form {
+	width: 40%;
+	text-align: left;
+}
+
+.form p {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.flex form label {
+	display: block;
+	margin: 5px 0px;
+	font-size: small;
+}
+
+.flex form input {
+	display: block;
+	margin: 10px 0px 20px 0px;
+	height: 28px;
+	width: 100%;
+}
+
+.flex form textarea {
+	width: 100%;
+}
+
+.code {
+	display: flex;
+	justify-content: space-between;
+}
+
+#nums {
+	height: 40px;
+	width: 50%;
+	font-size: large;
+	font-weight: bolder;
+	text-align: center;
+}
+#ucode {
+	width: 45%;
+	padding-top: 5px;
+}
+#ucode label {
+	font-size: smaller;
+	margin-bottom: 5px;
+}
+
+#ucode input {
+	height: 20px;
+	margin: 5px 0px;
+}
+
+.flex form .btn {
+	background-color: dodgerblue;
+	float: right;
+}
+
+div.line {
+	width: 2px;
+	background-color: darkgray;
+}
+
+.info {
+	width: 40%;
+	text-align: left;
+}
+
+.cont-info {
+	display: flex;
+}
+
+.cont-icon {
+	width: 40px;
+	background-color: darkgray;
+	padding: 7px;
+	display: flex;
+	flex-direction: column;
+	font-size: x-large;
+	border-radius: 5px;
+
+	justify-content: space-between;
+}
+.cont-icon i {
+	color: white;
+	margin: 5px 0px;
+}
+.cont-text {
+	padding: 10px;
+}
+
+span.blue {
+	color: dodgerblue;
+}
+.cont-text p {
+	width: 100%;
+}
+
+.info img {
+	width: 100%;
+	margin: 60px 0px;
+}
+
+h2 {
+	letter-spacing: -1px;
+	word-spacing: -1px;
+	text-align: center;
+}
+.social h2 {
+	color: black;
+}
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-icon {
+	width: 50px;
+	height: 50px;
+
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+.dodblue {
+	background-color: dodgerblue;
+}
+
+.cyan {
+	background-color: cyan;
+}
+
+.darkcyan {
+	background-color: darkcyan;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.darkorange {
+	background-color: darkorange;
+}
